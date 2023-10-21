@@ -7,6 +7,8 @@ function Header({ title }) {
     )
 }
 
+// HomePage component returns department dropdown menu and button to select department. Stores selected dept in state, and fetches all art from that department. Then stores a randomly selected piece of art in state. Also returns ArtInfo component and passes it the selected piece of art.
+
 
 export default function HomePage() {
     const [selectedDeptID, setSelectedDeptID] = useState(0);
