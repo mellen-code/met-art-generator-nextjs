@@ -10,7 +10,7 @@ function Header({ title }) {
 
 export default function HomePage() {
     const [selectedDeptID, setSelectedDeptID] = useState(0);
-    const [selectedArt, setSelectedArt] = useState(null);
+    const [selectedArt, setSelectedArt] = useState('');
 
     // using unary plus to change the typeof option value from string to number when storing in state:
     function handleChange(event) {
