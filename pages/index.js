@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import ArtInfo from './ArtInfo';
+import ArtInfo from '..components/ArtInfo';
 
 function Header({ title }) {
     return (

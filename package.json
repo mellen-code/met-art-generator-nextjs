@@ -3,10 +3,22 @@
     "dev": "next dev"
   },
   "dependencies": {
+    "@hapi/iron": "^7.0.1",
+    "bcrypt": "^5.1.1",
+    "connect-mongo": "^5.1.0",
+    "cookie": "^0.5.0",
+    "dotenv": "^16.3.1",
     "mongodb": "^6.2.0",
+    "mongoose": "^7.6.3",
     "next": "^13.5.4",
+    "next-connect": "^1.0.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "swr": "^2.2.4",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0"
   },
   "images": {
     "remotePatterns": [
